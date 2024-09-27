@@ -16,7 +16,8 @@ public class BST {
      * Retorna a altura da árvore.
      */
     public int height() {
-        //TODO implementar
+        if(node == null) return -1;
+
         return -1;
     }
 
@@ -25,11 +26,12 @@ public class BST {
      * para recursão e para o balance.
      */
     private int height(Node node) {
-        return -1;
+        return height(this.root);
     }
 
     private int balance(Node node) {
-        return -1;
+        if(node == null) return -1;
+        else return 1 + Math.max(height(node.right), height(node.left));
     }
 
     /**

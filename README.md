@@ -1,8 +1,8 @@
 # Identificação
 
-* Nome: 
-* Email (@ccc): 
-* Matrícula: 
+* Nome: Vitor Schuler Velloso Borges
+* Email (@ccc): vitor.schuler.velloso.borges@ccc.ufcg.edu.br
+* Matrícula: 123110668
 
 # Roteiro: isAVL
 
